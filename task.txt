@@ -1,0 +1,28 @@
+Problem:
+N people are standing in a circle, The first one has a sword.
+He kills the person on his right(2), and pass the sword the next person(Number 3), and etc..
+This will continue until only one person will stay.
+Who it will be?
+
+
+Tasks:
+
+Write NodeJs function that will implement the following:
+
+1) Return the number of the last person who stands
+2) Add record to two collections of local mongo(Please make sure that the writing to the db will be in parallel),
+ every time we kill a person.
+  (Collections names are “logs”, “dailyLogs_<Date>”, 
+  the object for both collection is {cDate:date,numberWhoDied: int}
+
+Main function:
+Function getLastStanding(numOfPersons) {  
+	Return lastStand
+}
+
+Please use the following packages:
+Async, Underscore, Mongoose 
+
+
+
+
